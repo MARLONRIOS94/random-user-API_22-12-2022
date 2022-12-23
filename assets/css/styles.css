@@ -4,6 +4,7 @@
     --colorsombra: #E91E63;
     --colorp:#FF6F00;
     --fondoinfouser:#311B92;
+    --colorgen-user:#229954;
     --fuente:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -30,8 +31,37 @@ body{
     width: 400px;
     background-color: #E91E63;
     border-radius: 40px;
-    margin-top: 10px;
-    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container-select{
+    text-align: center;
+}
+
+.container-select select {
+    text-align: center;
+    height: 36px;
+    width: 190px;
+    border-radius: 40px;
+    background-color: var(--colorsombra);
+    font-family:inherit;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 5px; 
+}
+
+.generate-user {
+    border: none;
+    text-align: center;
+    height: 36px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: var(--colorgen-user);
+    font-family:inherit;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 5px; 
 }
 
 .flex{
