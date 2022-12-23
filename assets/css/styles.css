@@ -1,0 +1,88 @@
+:root {
+    --fondocard:#000000;
+    --bgcolor:#4FC3F7;
+    --colorsombra: #E91E63;
+    --colorp:#FF6F00;
+    --fondoinfouser:#311B92;
+    --fuente:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--fuente);
+}
+
+body{
+    background-color:var(--bgcolor);
+}
+
+.tit{
+    text-align: center;
+    color: var(--fondocard);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 537px;
+    background-color: var(--fondocard);
+    border-radius: 50px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 7px 7px 8px var(--colorsombra)
+    /* overflow: hidden; */
+}
+
+
+.card img{
+    margin-top: 10px;
+    width: 250PX;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.info-user{
+    background-color: var(--fondoinfouser);
+    margin-bottom: 10px;
+    width: 95%;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.details-adrress{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.country {
+    margin:0 0 0 5px;
+}
+
+.state {
+    display: flex;
+    margin:0 5px 0 0;
+}
+
+h2{
+    color:var(--bgcolor)
+}
+
+h3{
+    color:var(--fondocard);
+}
+
+p {
+    color: var(--colorp);
+}
