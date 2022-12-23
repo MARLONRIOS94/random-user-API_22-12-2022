@@ -18,11 +18,20 @@ body{
     background-color:var(--bgcolor);
 }
 
-.tit{
+.cont-tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.tit{
     color: var(--fondocard);
+    width: 400px;
+    background-color: #E91E63;
+    border-radius: 40px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .flex{
@@ -37,7 +46,6 @@ body{
     height: 537px;
     background-color: var(--fondocard);
     border-radius: 50px;
-    margin: 20px;
     text-align: center;
     box-shadow: 7px 7px 8px var(--colorsombra)
     /* overflow: hidden; */
